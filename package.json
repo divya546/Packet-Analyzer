@@ -1,0 +1,30 @@
+{
+  "name": "packet-analyzer",
+  "version": "1.0.0",
+  "description": "Deep Packet Inspection (DPI) and PCAP Packet Analyzer built with Node.js",
+  "main": "src/dpiEngine.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/dpiEngine.js",
+    "dev": "node --watch src/dpiEngine.js",
+    "generate-pcap": "node src/generateTestPcap.js"
+  },
+  "keywords": [
+    "packet-analyzer",
+    "pcap",
+    "network",
+    "dpi",
+    "deep-packet-inspection",
+    "tls",
+    "sni",
+    "cybersecurity",
+    "nodejs"
+  ],
+  "author": "Divya Singh",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
